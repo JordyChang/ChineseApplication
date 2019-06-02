@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddLessonActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Lesson Cover" />
+
+            <com.jackandphantom.circularimageview.RoundedImage
+                android:id="@+id/img_lesson"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="17dp"
+                android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+            <EditText
+                android:id="@+id/edtlesson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Add Lesson"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Words Section"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload Words Image" />
+
+                    <com.jackandphantom.circularimageview.RoundedImage
+                        android:id="@+id/img_words"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="17dp"
+                        android:src="@drawable/ic_add_a_photo_black_24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload Voice Words" />
+
+                    <com.jackandphantom.circularimageview.RoundedImage
+                        android:id="@+id/img_voice_word"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="17dp"
+                        android:src="@drawable/ic_keyboard_voice_black_24dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtChinesewords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Chinese words"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtenglishwords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input English words"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="6dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conversation Section"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Voice Words" />
+
+                <com.jackandphantom.circularimageview.RoundedImage
+                    android:id="@+id/img_voice_conversation"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="17dp"
+                    android:src="@drawable/ic_keyboard_voice_black_24dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtChinese_conv_pinyin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Chinese Conversation Pinyin"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtChinese_conversation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Chinese Conversation"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtenglishwords1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input english conversation words"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz Section"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz Question" />
+
+            <EditText
+                android:id="@+id/edtquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Quiz Question"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right Answer" />
+
+            <EditText
+                android:id="@+id/edtCorrect_answers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Right Answer"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrong Answers" />
+
+            <EditText
+                android:id="@+id/edtWrong_answers1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Wrong Answer 1"
+                android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/edtWrong_answers2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Wrong Answer 2"
+                android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/edtWrong_answers3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input Wrong Answer 3"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AEAFB1"
+                android:text="Add Lesson"
+                />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

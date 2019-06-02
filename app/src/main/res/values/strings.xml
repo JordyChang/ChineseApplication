@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chinese Learning</string>
+
+    <string-array name="lesson">
+        <item> Lesson 1</item>
+        <item> Lesson 2</item>
+        <item> Lesson 3</item>
+        <item> Lesson 4</item>
+        <item> Lesson 5</item>
+        <item> Lesson 6</item>
+        <item> Lesson 7</item>
+        <item> Lesson 8</item>
+        <item> Lesson 9</item>
+        <item> Lesson 10</item>
+    </string-array>
+    <string name="title_activity_add_lesson">AddLessonActivity</string>
+</resources>
